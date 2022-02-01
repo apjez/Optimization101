@@ -21,7 +21,7 @@ EXE = mat_mult.exe
 all: $(EXE)
 
 clean:
-	rm -f *.o *.exe
+	rm -f *.exe
 
 run: $(EXE)
 	./$(EXE) $(MATRIX_SIZE)
